@@ -20,7 +20,9 @@ Execute the following commands, to extract the .oat framework files and the .ode
 ## 2.-Odex to smali
 Let's convert the odex file to modifiable code. Run:
 
-`baksmali x -c system/framework/arm64/boot.oat -d system/framework/arm64/ system/app/NfcNci/oat/NfcNci.odex -o NfcNci/`
+`baksmali.jar x -c system/framework/arm64/boot.oat -d system/framework/arm64/ system/app/NfcNci/oat/NfcNci.odex -o NfcNci/`
+
+And give it a couple of minutes to end the task
 
 
 ## 3.-MODifying source code
