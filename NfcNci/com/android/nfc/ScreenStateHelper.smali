@@ -113,7 +113,7 @@
     if-nez v0, :cond_a
 
     .line 29
-    const/4 v0, 0x1
+    const/4 v0, 0x3
 
     return v0
 
@@ -128,7 +128,7 @@
     if-eqz v0, :cond_14
 
     .line 31
-    const/4 v0, 0x2
+    const/4 v0, 0x3
 
     return v0
 

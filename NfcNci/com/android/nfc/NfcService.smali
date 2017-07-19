@@ -181,7 +181,7 @@
 
 .field static final NFC_ON_DEFAULT:Z
 
-.field static final NFC_POLLING_MODE:I = 0x3
+.field static final NFC_POLLING_MODE:I = 0x1
 
 .field static final NFC_POLL_A:I = 0x1
 
@@ -2655,22 +2655,22 @@
 
     .line 945
     .local v5, "filter":Landroid/content/IntentFilter;
-    const-string/jumbo v2, "android.intent.action.SCREEN_OFF"
+    const-string/jumbo v2, "android.intent.action.SCREEN_OFF_DISABLED"
 
     invoke-virtual {v5, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 946
-    const-string/jumbo v2, "android.intent.action.SCREEN_ON"
+    const-string/jumbo v2, "android.intent.action.SCREEN_ON_DISABLED"
 
     invoke-virtual {v5, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 947
-    const-string/jumbo v2, "android.intent.action.USER_PRESENT"
+    const-string/jumbo v2, "android.intent.action.USER_PRESENT_DISABLED"
 
     invoke-virtual {v5, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 948
-    const-string/jumbo v2, "android.intent.action.USER_SWITCHED"
+    const-string/jumbo v2, "android.intent.action.USER_SWITCHED_DISABLED"
 
     invoke-virtual {v5, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
