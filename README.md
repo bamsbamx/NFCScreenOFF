@@ -42,5 +42,7 @@ Overwrite THE NEW NfcNci.apk into /system/app/NfcNci.apk and chmod 0644 it, then
 
 # Sources:
 Lasse-it.dk: https://lasse-it.dk/2017/01/how-to-modifying-nfcnci-apk-to-run-when-screen-is-turned-off-on-android-nougat
+
 source.android.com: https://source.android.com/devices/tech/dalvik/dalvik-bytecode
+
 pallergabor.uw.hu: http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html
