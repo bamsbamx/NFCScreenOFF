@@ -33,7 +33,7 @@ The required modifications can be found here: https://github.com/bamsbamx/NFCScr
 Run:
 `smali a -o classes.dex NfcNci/`
 
-And copy classes.dex into original NfcNci.apk (worked with 7-Zip for me). (OPTIONAL) You can zipalign if you want
+And copy generated classes.dex into original NfcNci.apk (worked with 7-Zip for me). (OPTIONAL) You can zipalign the APK if you want
 
 
 ## 5.-Install the MODded APK
