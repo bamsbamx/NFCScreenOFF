@@ -26,4 +26,23 @@ And give it a couple of minutes to end the task
 
 
 ## 3.-MODifying source code
-TODO
+The required modifications can be found here: https://github.com/bamsbamx/NFCScreenOFF/commit/12f21d6cff22eedd80775039beb517723751befd
+
+
+## 4.-Recompile source code and rebuild APK
+Run:
+`smali a -o classes.dex NfcNci/`
+
+And copy classes.dex into original NfcNci.apk (worked with 7-Zip for me). (OPTIONAL) You can zipalign if you want
+
+
+## 5.-Install the MODded APK
+Overwrite THE NEW NfcNci.apk into /system/app/NfcNci.apk and chmod 0644 it, then reboot and it will be working
+
+
+# Sources:
+Lasse-it.dk: https://lasse-it.dk/2017/01/how-to-modifying-nfcnci-apk-to-run-when-screen-is-turned-off-on-android-nougat
+
+source.android.com: https://source.android.com/devices/tech/dalvik/dalvik-bytecode
+
+pallergabor.uw.hu: http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html
