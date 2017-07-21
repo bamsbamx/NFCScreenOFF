@@ -3760,7 +3760,7 @@
     .local v1, "paramsBuilder":Lcom/android/nfc/NfcDiscoveryParameters$Builder;
     const/4 v5, 0x3
 
-    if-lt p1, v5, :cond_13
+    if-lt v5, p1, :cond_13
 
     .line 3695
     iget-boolean v5, p0, Lcom/android/nfc/NfcService;->mIsChargeLimitationEnabled:Z
