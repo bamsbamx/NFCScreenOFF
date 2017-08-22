@@ -31,7 +31,7 @@ The required modifications can be found here: https://github.com/bamsbamx/NFCScr
 
 ## 4.-Recompile source code and rebuild APK
 Run:
-`smali a -o classes.dex NfcNci/`
+`smali.jar a -o classes.dex NfcNci/`
 
 And copy generated classes.dex into original NfcNci.apk (worked with 7-Zip for me). (OPTIONAL) You can zipalign the APK if you want
 
